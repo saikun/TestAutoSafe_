@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Page Data View Controller-->
+        <scene sceneID="m1w-rT-xKW">
+            <objects>
+                <viewController storyboardIdentifier="PageDataViewController" id="E53-NX-ZAo" customClass="PageDataViewController" customModule="TestAutoTrack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ev5-qa-BSd"/>
+                        <viewControllerLayoutGuide type="bottom" id="G5y-h2-Bal"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="0zJ-0f-hgI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wtd-TY-Yp7">
+                                <rect key="frame" x="20" y="45" width="335" height="602"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="xIc-Pq-cpl">
+                                        <rect key="frame" x="150" y="292" width="34.5" height="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="xIc-Pq-cpl" firstAttribute="centerX" secondItem="wtd-TY-Yp7" secondAttribute="centerX" id="FHs-9G-EkD"/>
+                                    <constraint firstItem="xIc-Pq-cpl" firstAttribute="centerY" secondItem="wtd-TY-Yp7" secondAttribute="centerY" id="WwM-3S-nya"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97826086960000003" green="0.91848131079999995" blue="0.73914263440000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wtd-TY-Yp7" secondAttribute="trailing" constant="20" symbolic="YES" id="LHm-7c-AkZ"/>
+                            <constraint firstItem="wtd-TY-Yp7" firstAttribute="top" secondItem="Ev5-qa-BSd" secondAttribute="bottom" constant="25" id="TVo-j4-sqn"/>
+                            <constraint firstItem="wtd-TY-Yp7" firstAttribute="leading" secondItem="0zJ-0f-hgI" secondAttribute="leading" constant="20" symbolic="YES" id="btV-pi-gVe"/>
+                            <constraint firstAttribute="bottom" secondItem="wtd-TY-Yp7" secondAttribute="bottom" constant="20" symbolic="YES" id="pWk-6o-6fa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataLabel" destination="xIc-Pq-cpl" id="Crk-w5-6hQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hRZ-FD-wGs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="597" y="-243"/>
+        </scene>
+    </scenes>
+</document>
