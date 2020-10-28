@@ -1,0 +1,394 @@
+2018-05-15 01:17:12 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd94b899490; archive(resolved)='<IDEArchive: 0x7fd949519f20>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team(resolved)='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fd94b899490; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fd9491919f0; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	<IDEDistributionContext: 0x7fd9495597d0; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	<IDEDistributionContext: 0x7fd94950e2c0; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	<IDEDistributionContext: 0x7fd94a450160; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	<IDEDistributionContext: 0x7fd94a479da0; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	<IDEDistributionContext: 0x7fd9417d4cb0; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	<IDEDistributionContext: 0x7fd94a1ddb50; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	<IDEDistributionContext: 0x7fd94373da30; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='<IDEProvisioningBasicTeam 0x7fd94a1c4c50: teamID: id, teamName: domain.com, Inc.>'>
+	<IDEDistributionContext: 0x7fd943719080; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd942595c50>', team='(null)'>
+	<IDEDistributionContext: 0x7fd94a470a90; archive = '<IDEArchive: 0x7fd949519f20>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fd94b899490>
+2018-05-15 01:17:12 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-05-15 01:17:12 +0000  Processing step: IDEDistributionCopyItemStep
+2018-05-15 01:17:12 +0000  Running /usr/bin/ditto '-V' '/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app'
+2018-05-15 01:17:12 +0000  >>> Copying /Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app 
+2018-05-15 01:17:12 +0000  copying file ./_CodeSignature/CodeResources ... 
+15387 bytes for ./_CodeSignature/CodeResources
+copying file ./AfterLoginView.storyboardc/AfterLoginViewController.nib ... 
+1005 bytes for ./AfterLoginView.storyboardc/AfterLoginViewController.nib
+copying file ./AfterLoginView.storyboardc/Info.plist ... 
+173 bytes for ./AfterLoginView.storyboardc/Info.plist
+copying file ./AfterLoginView.storyboardc/VFD-b1-GRx-view-X0G-pH-Ldk.nib ... 
+2792 bytes for ./AfterLoginView.storyboardc/VFD-b1-GRx-view-X0G-pH-Ldk.nib
+copying file ./archived-expanded-entitlements.xcent ... 
+384 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1986 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-05-15 01:17:12 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1986 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-05-15 01:17:12 +0000  936 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./BeforeLoginView.storyboardc/BeforeLoginViewController.nib ... 
+1055 bytes for ./BeforeLoginView.storyboardc/BeforeLoginViewController.nib
+copying file ./BeforeLoginView.storyboardc/Info.plist ... 
+175 bytes for ./BeforeLoginView.storyboardc/Info.plist
+copying file ./BeforeLoginView.storyboardc/Xnf-a4-0gW-view-tfg-3F-bYl.nib ... 
+4092 bytes for ./BeforeLoginView.storyboardc/Xnf-a4-0gW-view-tfg-3F-bYl.nib
+copying file ./embedded.mobileprovision ... 
+57521 bytes for ./embedded.mobileprovision
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-05-15 01:17:12 +0000  21079600 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-05-15 01:17:12 +0000  208304 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2018-05-15 01:17:12 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-05-15 01:17:12 +0000  577760 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-05-15 01:17:12 +0000  208864 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+303072 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+1009248 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-05-15 01:17:13 +0000  8425312 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-05-15 01:17:13 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-05-15 01:17:13 +0000  251264 bytes for ./Frameworks/libswiftMetal.dylib
+2018-05-15 01:17:13 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-05-15 01:17:13 +0000  258944 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2018-05-15 01:17:13 +0000  248912 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-05-15 01:17:13 +0000  212208 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-05-15 01:17:13 +0000  361488 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Info.plist ... 
+2018-05-15 01:17:13 +0000  1117 bytes for ./Info.plist
+2018-05-15 01:17:13 +0000  copying file ./LoginView.storyboardc/5AQ-HV-17F-view-m7d-Rg-xk0.nib ... 
+2018-05-15 01:17:13 +0000  4223 bytes for ./LoginView.storyboardc/5AQ-HV-17F-view-m7d-Rg-xk0.nib
+copying file ./LoginView.storyboardc/Info.plist ... 
+2018-05-15 01:17:13 +0000  163 bytes for ./LoginView.storyboardc/Info.plist
+copying file ./LoginView.storyboardc/LoginViewController.nib ... 
+2018-05-15 01:17:13 +0000  1043 bytes for ./LoginView.storyboardc/LoginViewController.nib
+2018-05-15 01:17:13 +0000  copying file ./OptionListView.storyboardc/h5K-2z-xu5-view-yOp-Sk-bAx.nib ... 
+2018-05-15 01:17:13 +0000  3842 bytes for ./OptionListView.storyboardc/h5K-2z-xu5-view-yOp-Sk-bAx.nib
+copying file ./OptionListView.storyboardc/Info.plist ... 
+2018-05-15 01:17:13 +0000  173 bytes for ./OptionListView.storyboardc/Info.plist
+copying file ./OptionListView.storyboardc/OptionListViewController.nib ... 
+2018-05-15 01:17:13 +0000  1058 bytes for ./OptionListView.storyboardc/OptionListViewController.nib
+2018-05-15 01:17:13 +0000  copying file ./PageDataView.storyboardc/E53-NX-ZAo-view-0zJ-0f-hgI.nib ... 
+2018-05-15 01:17:13 +0000  3411 bytes for ./PageDataView.storyboardc/E53-NX-ZAo-view-0zJ-0f-hgI.nib
+copying file ./PageDataView.storyboardc/Info.plist ... 
+2018-05-15 01:17:13 +0000  169 bytes for ./PageDataView.storyboardc/Info.plist
+2018-05-15 01:17:13 +0000  copying file ./PageDataView.storyboardc/PageDataViewController.nib ... 
+2018-05-15 01:17:13 +0000  1049 bytes for ./PageDataView.storyboardc/PageDataViewController.nib
+2018-05-15 01:17:13 +0000  copying file ./PageRootView.storyboardc/CPD-Ch-46T-view-q9R-H3-JW3.nib ... 
+2018-05-15 01:17:13 +0000  1796 bytes for ./PageRootView.storyboardc/CPD-Ch-46T-view-q9R-H3-JW3.nib
+copying file ./PageRootView.storyboardc/Info.plist ... 
+2018-05-15 01:17:13 +0000  169 bytes for ./PageRootView.storyboardc/Info.plist
+2018-05-15 01:17:13 +0000  copying file ./PageRootView.storyboardc/PageRootViewController.nib ... 
+2018-05-15 01:17:13 +0000  1001 bytes for ./PageRootView.storyboardc/PageRootViewController.nib
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+copying file ./TestAutoSafe ... 
+2018-05-15 01:17:13 +0000  /usr/bin/ditto exited with 0
+2018-05-15 01:17:13 +0000  579936 bytes for ./TestAutoSafe
+2018-05-15 01:17:13 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd94a4dd3e0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92bd601f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd9491e37d0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92c147bf0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd94943ee40 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd9497ac880:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd94946d450 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd9416c65c0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd94939c0c0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92bdda4e0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd94a383e10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd9412def20:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd94a36d7c0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd94b8af0f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd941543520 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd94b85f5d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd94245abe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd94910aa30:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd94946af60 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd9494730d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd941899000 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd945f9a8d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd9416447b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92c26d630:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftos.dylib'>'>
+2018-05-15 01:17:13 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-05-15 01:17:13 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-05-15 01:17:13 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-05-15 01:17:13 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-15 01:17:13 +0000  Processing step: IDEDistributionSymbolsStep
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-15 01:17:13 +0000  Processing step: IDEDistributionAppThinningStep
+2018-05-15 01:17:13 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-05-15 01:17:13 +0000  Processing step: IDEDistributionODRStep
+2018-05-15 01:17:13 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd94a4dd3e0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92bd601f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd9491e37d0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92c147bf0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd94943ee40 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd9497ac880:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd94946d450 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd9416c65c0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd94939c0c0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92bdda4e0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd94a383e10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd9412def20:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd94a36d7c0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd94b8af0f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd941543520 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd94b85f5d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd94245abe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd94910aa30:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd94946af60 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd9494730d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd941899000 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd945f9a8d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-15 01:17:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd9416447b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92c26d630:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftos.dylib'>'>
+2018-05-15 01:17:13 +0000  Running /usr/bin/xattr '-crs' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app'
+2018-05-15 01:17:15 +0000  /usr/bin/xattr exited with 0
+2018-05-15 01:17:15 +0000  Processing step: IDEDistributionCodesignStep
+2018-05-15 01:17:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd94a4dd3e0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92bd601f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd94a07e4f0>: {
+}
+2018-05-15 01:17:15 +0000  Entitlements for <IDEDistributionItem: 0x7fd94a4dd3e0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92bd601f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-05-15 01:17:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd94a4dd3e0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fd92bd601f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsyqUgBV
+2018-05-15 01:17:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsyqUgBV' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCore.dylib'
+2018-05-15 01:17:15 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-05-15 01:17:18 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-05-15 01:17:18 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd9491e37d0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92c147bf0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd92bf2f860>: {
+}
+2018-05-15 01:17:18 +0000  Entitlements for <IDEDistributionItem: 0x7fd9491e37d0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92c147bf0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-05-15 01:17:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd9491e37d0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fd92c147bf0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsSL1vE9
+2018-05-15 01:17:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsSL1vE9' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-05-15 01:17:18 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-05-15 01:17:19 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-05-15 01:17:19 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd94943ee40 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd9497ac880:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd94a33c520>: {
+}
+2018-05-15 01:17:19 +0000  Entitlements for <IDEDistributionItem: 0x7fd94943ee40 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd9497ac880:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-05-15 01:17:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd94943ee40 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fd9497ac880:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsIg1VM3
+2018-05-15 01:17:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsIg1VM3' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-05-15 01:17:19 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-05-15 01:17:20 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-05-15 01:17:20 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd94946d450 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd9416c65c0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd94a3698f0>: {
+}
+2018-05-15 01:17:20 +0000  Entitlements for <IDEDistributionItem: 0x7fd94946d450 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd9416c65c0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-05-15 01:17:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd94946d450 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fd9416c65c0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsuRrjgk
+2018-05-15 01:17:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsuRrjgk' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib'
+2018-05-15 01:17:20 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-05-15 01:17:21 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-05-15 01:17:21 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd94939c0c0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92bdda4e0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd94323ec90>: {
+}
+2018-05-15 01:17:21 +0000  Entitlements for <IDEDistributionItem: 0x7fd94939c0c0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92bdda4e0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-05-15 01:17:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd94939c0c0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fd92bdda4e0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsXLN2lK
+2018-05-15 01:17:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsXLN2lK' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib'
+2018-05-15 01:17:21 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-05-15 01:17:21 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-05-15 01:17:21 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd94a383e10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd9412def20:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd94544a6e0>: {
+}
+2018-05-15 01:17:21 +0000  Entitlements for <IDEDistributionItem: 0x7fd94a383e10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd9412def20:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-05-15 01:17:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd94a383e10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fd9412def20:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementszr0lQB
+2018-05-15 01:17:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementszr0lQB' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib'
+2018-05-15 01:17:21 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-05-15 01:17:22 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-05-15 01:17:22 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd94a36d7c0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd94b8af0f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd9437199d0>: {
+}
+2018-05-15 01:17:22 +0000  Entitlements for <IDEDistributionItem: 0x7fd94a36d7c0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd94b8af0f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-05-15 01:17:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd94a36d7c0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fd94b8af0f0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsbo6eN5
+2018-05-15 01:17:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsbo6eN5' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib'
+2018-05-15 01:17:22 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-05-15 01:17:24 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-05-15 01:17:24 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:24 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd941543520 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd94b85f5d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd94a2a81f0>: {
+}
+2018-05-15 01:17:24 +0000  Entitlements for <IDEDistributionItem: 0x7fd941543520 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd94b85f5d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-05-15 01:17:24 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd941543520 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fd94b85f5d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsQStfG8
+2018-05-15 01:17:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsQStfG8' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftMetal.dylib'
+2018-05-15 01:17:24 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-05-15 01:17:24 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-05-15 01:17:24 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:24 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd94245abe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd94910aa30:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd943375a30>: {
+}
+2018-05-15 01:17:24 +0000  Entitlements for <IDEDistributionItem: 0x7fd94245abe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd94910aa30:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-05-15 01:17:24 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd94245abe0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fd94910aa30:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsM4tRHp
+2018-05-15 01:17:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsM4tRHp' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib'
+2018-05-15 01:17:24 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-05-15 01:17:24 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-05-15 01:17:24 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:24 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd94946af60 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd9494730d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd9450f6820>: {
+}
+2018-05-15 01:17:24 +0000  Entitlements for <IDEDistributionItem: 0x7fd94946af60 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd9494730d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-05-15 01:17:24 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd94946af60 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fd9494730d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsuqhpxu
+2018-05-15 01:17:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsuqhpxu' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib'
+2018-05-15 01:17:24 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-05-15 01:17:25 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-05-15 01:17:25 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd941899000 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd945f9a8d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd9496dfb90>: {
+}
+2018-05-15 01:17:25 +0000  Entitlements for <IDEDistributionItem: 0x7fd941899000 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd945f9a8d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-05-15 01:17:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd941899000 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fd945f9a8d0:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsN7XkJs
+2018-05-15 01:17:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementsN7XkJs' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib'
+2018-05-15 01:17:25 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-05-15 01:17:25 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-05-15 01:17:25 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd9416447b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92c26d630:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd94321b750>: {
+}
+2018-05-15 01:17:25 +0000  Entitlements for <IDEDistributionItem: 0x7fd9416447b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92c26d630:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-05-15 01:17:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd9416447b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fd92c26d630:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementssVW62D
+2018-05-15 01:17:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlementssVW62D' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftos.dylib'
+2018-05-15 01:17:25 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-05-15 01:17:25 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-05-15 01:17:25 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd94946fcd0 'com.domain.TestAutoSafe' '<DVTFilePath:0x7fd94a509020:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd94320d0e0>: {
+}
+2018-05-15 01:17:25 +0000  Entitlements for <IDEDistributionItem: 0x7fd94946fcd0 'com.domain.TestAutoSafe' '<DVTFilePath:0x7fd94a509020:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app'>'>: {
+    "application-identifier" = "id.com.domain.TestAutoSafe";
+    "com.apple.developer.team-identifier" = id;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "id.com.domain.TestAutoSafe"
+    );
+}
+2018-05-15 01:17:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd94946fcd0 'com.domain.TestAutoSafe' '<DVTFilePath:0x7fd94a509020:'/Users/user_name/Library/Developer/Xcode/Archives/2018-05-15/TestAutoSafe 2018-05-15 10.16.xcarchive/Products/Applications/TestAutoSafe.app'>'> to: /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlements3LlgTy
+2018-05-15 01:17:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49FBD108CDDD74CFE33C704B35427EC77F87B957' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/entitlements3LlgTy' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app'
+2018-05-15 01:17:25 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app: replacing existing signature
+2018-05-15 01:17:26 +0000  /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root/Payload/TestAutoSafe.app: signed app bundle with Mach-O universal (armv7 arm64) [com.domain.TestAutoSafe]
+2018-05-15 01:17:26 +0000  /usr/bin/codesign exited with 0
+2018-05-15 01:17:26 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-15 01:17:26 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-05-15 01:17:26 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root' '/var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Packages/TestAutoSafe.ipa'
+2018-05-15 01:17:26 +0000  >>> Copying /var/folders/ng/ghnsptlx1ds2tphrlz18s9k4nxy2q6/T/XcodeDistPipeline.1Un/Root 
+2018-05-15 01:17:26 +0000  copying file ./Payload/TestAutoSafe.app/_CodeSignature/CodeResources ... 
+2018-05-15 01:17:26 +0000  15387 bytes for ./Payload/TestAutoSafe.app/_CodeSignature/CodeResources
+2018-05-15 01:17:26 +0000  copying file ./Payload/TestAutoSafe.app/AfterLoginView.storyboardc/AfterLoginViewController.nib ... 
+1005 bytes for ./Payload/TestAutoSafe.app/AfterLoginView.storyboardc/AfterLoginViewController.nib
+copying file ./Payload/TestAutoSafe.app/AfterLoginView.storyboardc/Info.plist ... 
+173 bytes for ./Payload/TestAutoSafe.app/AfterLoginView.storyboardc/Info.plist
+copying file ./Payload/TestAutoSafe.app/AfterLoginView.storyboardc/VFD-b1-GRx-view-X0G-pH-Ldk.nib ... 
+2018-05-15 01:17:26 +0000  2792 bytes for ./Payload/TestAutoSafe.app/AfterLoginView.storyboardc/VFD-b1-GRx-view-X0G-pH-Ldk.nib
+copying file ./Payload/TestAutoSafe.app/archived-expanded-entitlements.xcent ... 
+384 bytes for ./Payload/TestAutoSafe.app/archived-expanded-entitlements.xcent
+2018-05-15 01:17:26 +0000  copying file ./Payload/TestAutoSafe.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1986 bytes for ./Payload/TestAutoSafe.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/TestAutoSafe.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/TestAutoSafe.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-05-15 01:17:26 +0000  copying file ./Payload/TestAutoSafe.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Payload/TestAutoSafe.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/TestAutoSafe.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-05-15 01:17:26 +0000  1986 bytes for ./Payload/TestAutoSafe.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/TestAutoSafe.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/TestAutoSafe.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/TestAutoSafe.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+936 bytes for ./Payload/TestAutoSafe.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/TestAutoSafe.app/BeforeLoginView.storyboardc/BeforeLoginViewController.nib ... 
+2018-05-15 01:17:26 +0000  1055 bytes for ./Payload/TestAutoSafe.app/BeforeLoginView.storyboardc/BeforeLoginViewController.nib
+copying file ./Payload/TestAutoSafe.app/BeforeLoginView.storyboardc/Info.plist ... 
+175 bytes for ./Payload/TestAutoSafe.app/BeforeLoginView.storyboardc/Info.plist
+copying file ./Payload/TestAutoSafe.app/BeforeLoginView.storyboardc/Xnf-a4-0gW-view-tfg-3F-bYl.nib ... 
+2018-05-15 01:17:26 +0000  4092 bytes for ./Payload/TestAutoSafe.app/BeforeLoginView.storyboardc/Xnf-a4-0gW-view-tfg-3F-bYl.nib
+copying file ./Payload/TestAutoSafe.app/embedded.mobileprovision ... 
+2018-05-15 01:17:26 +0000  14821 bytes for ./Payload/TestAutoSafe.app/embedded.mobileprovision
+2018-05-15 01:17:26 +0000  copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftCore.dylib ... 
+2018-05-15 01:17:27 +0000  21079952 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-05-15 01:17:27 +0000  208656 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-05-15 01:17:27 +0000  578112 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-05-15 01:17:27 +0000  209216 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib ... 
+2018-05-15 01:17:27 +0000  303424 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib ... 
+2018-05-15 01:17:27 +0000  1009616 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib ... 
+2018-05-15 01:17:27 +0000  8425680 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftMetal.dylib ... 
+2018-05-15 01:17:28 +0000  251616 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-05-15 01:17:28 +0000  259296 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftos.dylib ... 
+2018-05-15 01:17:28 +0000  249264 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftos.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-05-15 01:17:28 +0000  212576 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib ... 
+2018-05-15 01:17:28 +0000  361856 bytes for ./Payload/TestAutoSafe.app/Frameworks/libswiftUIKit.dylib
+2018-05-15 01:17:28 +0000  copying file ./Payload/TestAutoSafe.app/Info.plist ... 
+1117 bytes for ./Payload/TestAutoSafe.app/Info.plist
+copying file ./Payload/TestAutoSafe.app/LoginView.storyboardc/5AQ-HV-17F-view-m7d-Rg-xk0.nib ... 
+4223 bytes for ./Payload/TestAutoSafe.app/LoginView.storyboardc/5AQ-HV-17F-view-m7d-Rg-xk0.nib
+copying file ./Payload/TestAutoSafe.app/LoginView.storyboardc/Info.plist ... 
+163 bytes for ./Payload/TestAutoSafe.app/LoginView.storyboardc/Info.plist
+copying file ./Payload/TestAutoSafe.app/LoginView.storyboardc/LoginViewController.nib ... 
+1043 bytes for ./Payload/TestAutoSafe.app/LoginView.storyboardc/LoginViewController.nib
+copying file ./Payload/TestAutoSafe.app/OptionListView.storyboardc/h5K-2z-xu5-view-yOp-Sk-bAx.nib ... 
+3842 bytes for ./Payload/TestAutoSafe.app/OptionListView.storyboardc/h5K-2z-xu5-view-yOp-Sk-bAx.nib
+copying file ./Payload/TestAutoSafe.app/OptionListView.storyboardc/Info.plist ... 
+2018-05-15 01:17:28 +0000  173 bytes for ./Payload/TestAutoSafe.app/OptionListView.storyboardc/Info.plist
+copying file ./Payload/TestAutoSafe.app/OptionListView.storyboardc/OptionListViewController.nib ... 
+1058 bytes for ./Payload/TestAutoSafe.app/OptionListView.storyboardc/OptionListViewController.nib
+copying file ./Payload/TestAutoSafe.app/PageDataView.storyboardc/E53-NX-ZAo-view-0zJ-0f-hgI.nib ... 
+2018-05-15 01:17:28 +0000  3411 bytes for ./Payload/TestAutoSafe.app/PageDataView.storyboardc/E53-NX-ZAo-view-0zJ-0f-hgI.nib
+copying file ./Payload/TestAutoSafe.app/PageDataView.storyboardc/Info.plist ... 
+169 bytes for ./Payload/TestAutoSafe.app/PageDataView.storyboardc/Info.plist
+copying file ./Payload/TestAutoSafe.app/PageDataView.storyboardc/PageDataViewController.nib ... 
+2018-05-15 01:17:28 +0000  1049 bytes for ./Payload/TestAutoSafe.app/PageDataView.storyboardc/PageDataViewController.nib
+copying file ./Payload/TestAutoSafe.app/PageRootView.storyboardc/CPD-Ch-46T-view-q9R-H3-JW3.nib ... 
+2018-05-15 01:17:28 +0000  1796 bytes for ./Payload/TestAutoSafe.app/PageRootView.storyboardc/CPD-Ch-46T-view-q9R-H3-JW3.nib
+copying file ./Payload/TestAutoSafe.app/PageRootView.storyboardc/Info.plist ... 
+169 bytes for ./Payload/TestAutoSafe.app/PageRootView.storyboardc/Info.plist
+copying file ./Payload/TestAutoSafe.app/PageRootView.storyboardc/PageRootViewController.nib ... 
+2018-05-15 01:17:28 +0000  1001 bytes for ./Payload/TestAutoSafe.app/PageRootView.storyboardc/PageRootViewController.nib
+copying file ./Payload/TestAutoSafe.app/PkgInfo ... 
+8 bytes for ./Payload/TestAutoSafe.app/PkgInfo
+copying file ./Payload/TestAutoSafe.app/TestAutoSafe ... 
+2018-05-15 01:17:28 +0000  579936 bytes for ./Payload/TestAutoSafe.app/TestAutoSafe
+2018-05-15 01:17:28 +0000  /usr/bin/ditto exited with 0
+2018-05-15 01:17:28 +0000  Processing step: IDEDistributionCreateManifestStep
